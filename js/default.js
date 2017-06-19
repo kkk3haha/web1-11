@@ -8,13 +8,12 @@ if(answer === number){
   message= 'あたり！';
  break;
 }else if (answer<number){
-  message = '残念！もっと大きいです！';
+ answer = parseInt(window.prompt('残念！もっと大きいです！0~2の数字を入力してください！'));
 }else if (number<answer){
-  message = '残念！もっと小さいです！';
+ answer = parseInt(window.prompt('残念！もっと小さいです！0~2の数字を入力してください！'));
 }else{
-  message = 'o~3の数字を入力してください';
+  answer = parseInt(window.prompt('0~3の数字を入力してください！'));
 }
-  document.getElementById('choice').textContent = message;
  }
 
 
