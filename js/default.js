@@ -11,6 +11,7 @@ if(answer === number){
   message = '残念！もっと小さいです！';
 }else{
   message = 'o~3の数字を入力してください';
+ answer = parseInt(window.prompt('数あてゲーム。0~2の数字を入力してください！'));
 }
 
 document.getElementById('choice').textContent = message;
