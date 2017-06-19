@@ -5,7 +5,6 @@ var message;
  
 if(answer === number){
   message= 'あたり！';
-  break;
 }else if (answer<number){
   message = '残念！もっと大きいです！';
 }else if (number<answer){
